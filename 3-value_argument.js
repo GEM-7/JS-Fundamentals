@@ -1,8 +1,6 @@
-const args = process.argv.slice(2);
-
-// Check the number of arguments and print the appropriate message.
-if (args.length === 0) {
+if (process.argv[2] === undefined) {
   console.log("No argument");
 } else {
-  console.log(args[0]);
+  // If it exists, print it.
+  console.log(process.argv[2]);
 }
