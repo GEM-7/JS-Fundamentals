@@ -5,5 +5,5 @@ if (process.argv.length === 4) {
   const arg2 = process.argv[3];
   console.log(`${arg1} is ${arg2}`);
 } else {
-  console.log("undefined is undefined.");
+  console.log("HBTN is undefined.");
 }
